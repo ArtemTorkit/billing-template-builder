@@ -27,3 +27,11 @@ npm run build
 
 This is a frontend-only prototype; saving is represented by a confirmation toast rather than a backend request.
 # billing-template-builder
+
+## Implementation
+
+- Built with React, TypeScript, and Vite.
+- Form state is managed in React and shared with the live invoice preview.
+- Line-item totals and VAT are recalculated from the current form values.
+- Responsive styles support desktop split view and mobile stacked layout.
+- Includes focused component tests with Vitest and Testing Library.
